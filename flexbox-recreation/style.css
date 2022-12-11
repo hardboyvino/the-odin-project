@@ -1,14 +1,64 @@
-.flex1 {
-    display: flex;
+.green {
     background: #c7f0c7;
-    border: green;
-    height: 500px;
+    padding: 15px;
+    border: 5px solid #238000;
+    /* height: 1000px; */
+    /* display: flex; */
 }
 
-.flex1 div {
+.green .lightblue {
     background: #add8e6;
-    border: 20px #2000ff;
+    border: 5px solid #2000ff;
+    height: 50px;
+    padding: 5px;
+    margin: 10px;
+    flex: 1;
+    gap: 10px;
+    display: flex;
+}
+
+.green .brown {
+    background: #fabbbb;
+    border: 5px solid #a52b2b;
+    flex: 1;
     height: 100px;
-      margin: 10px;
+    margin: 10px;
+    gap: 10px;
+    display: flex;
+}
+
+.brown .off {
+    background: #fabbbb;
+    border:  5px solid #a52b2a;
+    flex: 1;
+}
+
+.lightblue .orange {
+    background: #fcdab9;
+    border: 5px solid #f78072;
+    flex: 1;
+    display: flex;
+    padding: 5px;
+}
+
+.orange .red {
+    background: #fac0cb;
+    border: 5px solid #f40105;
+    flex: 1;
+}
+
+
+.lightblue .purple {
+    background: #e2deff;
+    border: 5px solid #6a5acd;
+    /* width: 100px; */
+    flex: 1;
+    /* display: flex; */
+}
+
+
+.purple .small {
+    background: #fcdab9;
+    border: 5px solid #f78072;
     flex: 1;
 }
