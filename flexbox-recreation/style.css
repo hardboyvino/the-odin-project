@@ -1,0 +1,14 @@
+.flex1 {
+    display: flex;
+    background: #c7f0c7;
+    border: green;
+    height: 500px;
+}
+
+.flex1 div {
+    background: #add8e6;
+    border: 20px #2000ff;
+    height: 100px;
+      margin: 10px;
+    flex: 1;
+}
