@@ -20,18 +20,18 @@
 .green .brown {
     background: #fabbbb;
     border: 5px solid #a52b2b;
-    flex: 1;
+    /* flex: 1; */
     height: 100px;
     margin: 10px;
     gap: 10px;
     display: flex;
 }
 
-.brown .off {
+/* .brown .off {
     background: #fabbbb;
     border:  5px solid #a52b2a;
     flex: 1;
-}
+} */
 
 .lightblue .orange {
     background: #fcdab9;
@@ -51,14 +51,13 @@
 .lightblue .purple {
     background: #e2deff;
     border: 5px solid #6a5acd;
-    /* width: 100px; */
-    flex: 1;
-    /* display: flex; */
+    flex: 2;
 }
 
 
-.purple .small {
+.lightblue .small {
     background: #fcdab9;
     border: 5px solid #f78072;
+    height: auto;
     flex: 1;
 }
