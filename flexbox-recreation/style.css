@@ -2,8 +2,9 @@
     background: #c7f0c7;
     padding: 15px;
     border: 5px solid #238000;
-    /* height: 1000px; */
-    /* display: flex; */
+    height: 750px;
+    display: flex;
+    flex-direction: column;
 }
 
 .green .lightblue {
@@ -18,20 +19,35 @@
 }
 
 .green .brown {
-    background: #fabbbb;
-    border: 5px solid #a52b2b;
-    /* flex: 1; */
+    /* background: #fabbbb; */
+    /* border: 5px solid #a52b2b; */
+    flex: 1;
     height: 100px;
     margin: 10px;
     gap: 10px;
     display: flex;
 }
 
-/* .brown .off {
+.brown .shown {
     background: #fabbbb;
     border:  5px solid #a52b2a;
     flex: 1;
-} */
+}
+
+.brown .hidden {
+    /* background: #fabbbb; */
+    /* border:  5px solid #a52b2a; */
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+}
+
+.hidden .up-down {
+    background: #fabbbb;
+    border:  5px solid #a52b2a;
+    flex: 1;
+}
 
 .lightblue .orange {
     background: #fcdab9;
